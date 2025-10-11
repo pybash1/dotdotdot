@@ -1,0 +1,137 @@
+{
+  "workbench.iconTheme": "moxer-icons",
+  "files.autoSave": "afterDelay",
+  "editor.cursorStyle": "block",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.guides.bracketPairs": true,
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": false,
+  "workbench.commandPalette.preserveInput": true,
+  "workbench.preferredDarkColorTheme": "Vesper",
+  "workbench.preferredLightColorTheme": "Vesper",
+  "workbench.settings.editor": "json",
+  "gitlens.hovers.currentLine.over": "line",
+  "editor.inlineSuggest.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+  "editor.fontFamily": "'FiraCode Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "discord.detailsEditing": "editing {file_name}",
+  "discord.largeImageIdling": "staring",
+  "discord.lowerDetailsEditing": "in {workspace}",
+  "discord.lowerDetailsNoWorkspaceFound": "",
+  "discord.lowerDetailsDebugging": "in {workspace}",
+  "discord.detailsDebugging": "debugging {file_name}",
+  "editor.stickyScroll.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
+  "editor.cursorBlinking": "expand",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.autoReplies": {
+    "Enter passphrase for key 'C:\\Users\\mitra/.ssh/gh_endeva':": "github\r",
+    "Enter passphrase for key 'C:\\Users\\mitra/.ssh/gh_personal':": "github\r"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.lineNumbers": "off",
+  "workbench.productIconTheme": "fluent-icons",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "update.mode": "manual",
+  "workbench.activityBar.location": "hidden",
+  "cursor.cpp.enablePartialAccepts": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.statusBar.visible": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.menuBarVisibility": "compact",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[mdx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "security.promptForLocalFileProtocolHandling": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "workbench.colorCustomizations": {},
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Aura Dark (Soft Text)",
+  "vscode_vibrancy.opacity": 0,
+  "vscode_vibrancy.type": "under-window",
+  "window.nativeTabs": true,
+  "amp.url": "https://ampcode.com/",
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.editor.showTabs": "single",
+  "svelte.enable-ts-plugin": true,
+  "remote.SSH.remotePlatform": {
+    "100.69.42.0": "linux"
+  },
+  "remote.autoForwardPortsSource": "hybrid",
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
+}
