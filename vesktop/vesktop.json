@@ -5,7 +5,7 @@
         "autoUpdateNotification": true,
         "useQuickCss": true,
         "themeLinks": [
-            "https://catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css"
+            "https://raw.githubusercontent.com/shvedes/discord-gruvbox/refs/heads/main/gruvbox-dark.theme.css"
         ],
         "enabledThemes": [],
         "enableReactDevtools": false,
