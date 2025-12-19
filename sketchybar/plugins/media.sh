@@ -1,25 +1,34 @@
 #!/bin/bash
 
 get_media_info() {
-    if osascript -e 'tell application "Spotify" to if it is running then player state as string' 2>/dev/null | grep -q "playing"; then
-        local title=$(osascript -e 'tell application "Spotify" to name of current track' 2>/dev/null)
-        local artist=$(osascript -e 'tell application "Spotify" to artist of current track' 2>/dev/null)
-        if [[ -n "$title" && -n "$artist" ]]; then
-            echo "playing|$title - $artist"
-            return
-        fi
-    fi
-    
-    if osascript -e 'tell application "Music" to if it is running then player state as string' 2>/dev/null | grep -q "playing"; then
-        local title=$(osascript -e 'tell application "Music" to name of current track' 2>/dev/null)
-        local artist=$(osascript -e 'tell application "Music" to artist of current track' 2>/dev/null)
-        if [[ -n "$title" && -n "$artist" ]]; then
-            echo "playing|$title - $artist"
-            return
-        fi
-    fi
-    
-    echo "stopped|"
+    osascript -e '
+        tell application "System Events"
+            set spotify_running to (name of processes) contains "Spotify"
+            set music_running to (name of processes) contains "Music"
+        end tell
+
+        if spotify_running then
+            try
+                tell application "Spotify"
+                    if player state is playing then
+                        return "playing|" & name of current track & " - " & artist of current track
+                    end if
+                end tell
+            end try
+        end if
+
+        if music_running then
+            try
+                tell application "Music"
+                    if player state is playing then
+                        return "playing|" & name of current track & " - " & artist of current track
+                    end if
+                end tell
+            end try
+        end if
+
+        return "stopped|"
+    '
 }
 
 if [ -z "$INFO" ]; then

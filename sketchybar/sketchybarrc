@@ -75,10 +75,8 @@ source $ITEM_DIR/front_app.sh
 source $ITEM_DIR/media.sh
 
 # -- Right Side Items --
-source $ITEM_DIR/calendar.sh
 source $ITEM_DIR/volume.sh
 source $ITEM_DIR/battery.sh
-source $ITEM_DIR/cpu.sh
 source $PLUGIN_DIR/icon_map_fn.sh
 # source ./icon_map.sh
 # __icon_map "${app_name}"

@@ -151,3 +151,7 @@ esac
 export ANDROID_HOME=$HOME/Library/Android/sdk
 
 . "$HOME/.cargo/env"
+# Added by Antigravity
+export PATH="/Users/ananjanmitra/.antigravity/antigravity/bin:$PATH"
+
+export HOMEBREW_NO_ENV_HINTS=1export PATH="$HOME/.local/bin:$PATH"
