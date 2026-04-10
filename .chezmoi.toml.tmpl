@@ -1,0 +1,14 @@
+[hooks.read-source-state.pre]
+    command = "{{ .chezmoi.sourceDir }}/.install-password-manager.sh"
+
+encryption = "age"
+
+# Fetch the age private key securely from 1Password
+[age]
+    # identity = "~/.config/chezmoi/key.txt"
+    # To use 1Password directly without a local file, uncomment below and remove the identity line above:
+    command = "op"
+    args = ["read", "op://Personal/chezmoi-age-key/notesPlain"]
+
+    # Public key for encryption
+    recipient = "age1xpyccgguljhv2pkz0ghgfvh0jw5pgq2z49j7mjxeq2hg39rptd8sg65q8l"

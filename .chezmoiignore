@@ -1,0 +1,5 @@
+~/.oh-my-zsh/cache
+README.md
+LICENSE
+node_modules
+bun.lock
