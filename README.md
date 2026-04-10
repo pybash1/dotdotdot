@@ -2,4 +2,4 @@
 
 dotfiles. thats it. figure it out yourself.
 
-![screenshot preview](./screenshot/screenshot.png)
+![screenshot preview](./screenshot/screenshot.jpeg)
